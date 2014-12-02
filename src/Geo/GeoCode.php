@@ -20,10 +20,10 @@ namespace Geo;
 
 class GeoCode {
 
-    private $db_server = 'localhost';
-    private $db_user   = 'phptestuser';
-    private $db_password = 'phptestuser';
-    private $db_name     = 'shorty';
+    private $db_server = 'eu-cdbr-azure-west-b.cloudapp.net';
+    private $db_user   = 'bab3eeb9c46fdf';
+    private $db_password = 'f6a936e9';
+    private $db_name     = 'alsysDB';
 
     /** Loads the URLs from the DB */
     public function __construct() {
